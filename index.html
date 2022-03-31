@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/2afd6fc23e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>Login Form</header>
+        <div class="progress-bar">
+            <div class="step">
+                <p>Basic Info</p>
+                <div class="bullet">
+                    <span>1</span>
+                </div>
+                <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+                <p>Contact</p>
+                <div class="bullet">
+                    <span>2</span>
+                </div>
+                <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+                <p>Date</p>
+                <div class="bullet">
+                    <span>3</span>
+                </div>
+                <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+                <p>Account</p>
+                <div class="bullet">
+                    <span>4</span>
+                </div>
+                <div class="check fas fa-check"></div>
+            </div>
+        </div>
+        <div class="form-outer">
+            <form  action="#">
+                <div class="page">
+                    <div class="title">Basic Info</div>
+                    <div class="field">
+                        <label class="label">First Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label class="label">Last Name</label>
+                        <input type="text" placeholder="">
+                    </div>
+                    <div class="field">
+                        <button>Next</button>
+                    </div>
+                </div>
+
+                <div class="page">
+                    <div class="title">Contact Info</div>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label class="label">Phone Number</label>
+                        <input type="number">
+                    </div>
+                    <div class="btns field">
+                        <button class="prev1 prev">Previous</button>
+                        <button class="next1 next">Next</button>
+                    </div>
+                </div>
+
+                <div class="page">
+                    <div class="title">Date of Info</div>
+                    <div class="field">
+                        <label class="label">Date</label>
+                        <input type="date">
+                    </div>
+                    <div class="field">
+                        <select>
+                            <option>male</option>
+                            <option>female</option>
+                            <option>other</option>
+                        </select>    
+                    </div>
+                    <div class="btns field">
+                        <button class="prev2 prev">Previous</button>
+                        <button class="next2 next">Next</button>
+                    </div>
+                </div>
+
+                <div class="page">
+                    <div class="title">Login Detail Info</div>
+                    <div class="field">
+                        <label class="label">Username</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label class="label">Password</label>
+                        <input type="password">
+                    </div>
+                    <div class="btns field">
+                        <button class="prev3 prev">Previous</button>
+                        <button class="submit next">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
